@@ -8,6 +8,8 @@ pygame.display.set_caption("Fairy Dungeon")
 background = pygame.image.load("background.PNG")
 mw = pygame.transform.scale(background, (1024, 1024))
 
+#####   MY BIG PROBLEM/ I DON'T USE MATRIX WALLS
+
 main_menu = pygame.image.load("menuu.png")
 
 enemy_images = [
